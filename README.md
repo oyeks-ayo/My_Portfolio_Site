@@ -1,6 +1,12 @@
-# My_Portfolio_Site
-This website is to show my portfolio and my blogs.
+# Portfolio Site
+A personal portfolio showcasing my web development projects, built with React.js and Bootstrap.
 
-Built with:
-- React + Vite
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react)
+## Features
+- About: Bio and skills
+- Projects: Links to GitHub and live demos
+- Contact: GitHub, LinkedIn, email
+
+## Setup
+```bash
+npm install
+npm run dev
