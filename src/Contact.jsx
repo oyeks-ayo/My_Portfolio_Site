@@ -1,5 +1,6 @@
 import React from 'react'
 import {Card, Button} from 'react-bootstrap'
+import {FaGithub, FaLinkedin, FaEnvelope} from 'react-icons/fa';
 
 
 const Contact = () => {
@@ -17,7 +18,8 @@ const Contact = () => {
                 className='mb-2 ms-2'
                 style={{ backgroundColor: '#172436', borderColor: '#172436' }}
                 variant='outline-dark'>
-                    Github
+                    <small>Github</small>
+                <FaGithub className='me-1' />
             </Button>
             <Button
                 href='https://linkedin.com/in/ayodele-oyekanmi-8b806919b/'
@@ -25,24 +27,27 @@ const Contact = () => {
                 className='mb-2 ms-2'
                 style={{ backgroundColor: '#0077b5', borderColor: '#0077b5' }}
                 variant='outline-dark'>
-                    LinkedIn
+                        <small>LinkedIn</small>
+                    <FaLinkedin className='me-1' />
             </Button>
             <Button
-                href='mailto:oyekanmiayodele28@gmail.com'
+                href='oyekanmiayodele28@gmail.com'
                 target='_blank'
                 className='mb-2 ms-2'
                 style={{ backgroundColor: '#1DA1F2', borderColor: '#1DA1F2' }}
                 variant='outline-dark'>
-                    Email
+                    <small>Email</small>
+                <FaEnvelope className='me-1' />
             </Button>
             <Button
-                href='../public/AYODELE_D_OYEKANMI.pdf'
+                href='/public/AYODELE_D_OYEKANMI.pdf'
                 target='_blank'
                 className='mb-2 ms-2'
                 style={{ backgroundColor: '#1DA1F2', borderColor: '#1DA1F2' }}
                 variant='outline-dark'
                 download>
-                    Download My Resume
+                    <small>Download My Resume</small>
+
             </Button>
         </Card.Body>
     </Card>
