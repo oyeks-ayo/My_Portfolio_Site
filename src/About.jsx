@@ -17,7 +17,7 @@ const About = () => {
                     <ul>
                         <li>Frontend: React.js, JavaScript, HTML, CSS, Bootstrap</li>
                         <li>Backend: Flask, Python</li>
-                        <li>Tools: Git, GitHub, Vercel</li>
+                        <li>Tools: Git, GitHub</li>
                     </ul>
         </Card.Body>
     </Card>
