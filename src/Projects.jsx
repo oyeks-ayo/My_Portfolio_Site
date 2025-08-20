@@ -11,11 +11,12 @@ const Projects = () => {
         },
         // Add more projects here as needed
         {
-            title: 'To-Do List App',
-            description: 'A React.js app for managing tasks with local storage, featuring add/edit/delete functionality.',
-            github: 'https://github.com/yourusername/todo-app',
-            demo: '#',
+            title: 'Resturant App',
+            description: 'A dynamic React.js app that showcases products, supports real-time search, and integrates seamlessly with APIs for up-to-date data.',
+            github: 'https://github.com/oyeks-ayo/restaurant',
+            demo: 'https://oyeks-ayo.github.io/restaurant/',
           },
+          
     ];
   return (
     <div>

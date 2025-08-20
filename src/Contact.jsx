@@ -12,14 +12,18 @@ const Contact = () => {
                 I'm always open to new opportunities and collaborations.
                 Feel free to reach out if you have any questions or just want to connect!
             </Card.Text>
+            <Card.Text className='text-success'>
+                phone: 08162276261 <br />
+                email: oyekanmiayodele28@gmail.com
+            </Card.Text>
             <Button
                 href='https://github.com/oyeks-ayo'
                 target='_blank'
                 className='mb-2 ms-2'
                 style={{ backgroundColor: '#172436', borderColor: '#172436' }}
-                variant='outline-dark'>
+                variant='outline-light'>
                     <small>Github</small>
-                <FaGithub className='me-1' />
+                <FaGithub className='mx-2' />
             </Button>
             <Button
                 href='https://linkedin.com/in/ayodele-oyekanmi-8b806919b/'
@@ -28,7 +32,7 @@ const Contact = () => {
                 style={{ backgroundColor: '#0077b5', borderColor: '#0077b5' }}
                 variant='outline-dark'>
                         <small>LinkedIn</small>
-                    <FaLinkedin className='me-1' />
+                    <FaLinkedin className='mx-2' />
             </Button>
             <Button
                 href='oyekanmiayodele28@gmail.com'
@@ -40,7 +44,7 @@ const Contact = () => {
                 <FaEnvelope className='me-1' />
             </Button>
             <Button
-                href='/public/AYODELE_D_OYEKANMI.pdf'
+                href='AYODELE_D_OYEKANMI.pdf'
                 target='_blank'
                 className='mb-2 ms-2'
                 style={{ backgroundColor: '#1DA1F2', borderColor: '#1DA1F2' }}
