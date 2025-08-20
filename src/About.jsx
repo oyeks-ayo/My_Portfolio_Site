@@ -16,6 +16,8 @@ const About = () => {
                 </Card.Subtitle>
                 <Card.Text>
                     Frontend - 
+                </Card.Text>
+                
                     <ul>
                         <li>HTML5 - Semantic markup, accessibility, SEO basics</li>
                         <li>CSS3 - Flexbox/Grid,responsive design</li>
@@ -24,8 +26,11 @@ const About = () => {
                         <li>Bootstrap - Responsive design, pre-built components</li>
                         <li>Git/GitHub - Version control, collaboration</li>
                     </ul>
-
+                
+                <Card.Text>
                     Backend -
+                </Card.Text>
+                
                     <ul>
                         <li>Python - Core syntax, data structures, OOP</li>
                         <li>Flask - Routing, templates, RESTful APIs</li>
@@ -34,7 +39,7 @@ const About = () => {
                         <li>PostgreSQL - Database management, schema design</li>
                         <li>API Development - RESTful design, JSON handling, Standard endpoints (GET/POST/PUT/DELETE)</li>
                     </ul>
-                </Card.Text>
+                
         </Card.Body>
     </Card>
   )
