@@ -19,7 +19,7 @@ const Projects = () => {
         {
             title: 'HOG App',
             description: 'A Fullstack app for Hand of God, a tiles selling company that showcases their products, supports real-time search, and integrates seamlessly with paystack\'s APIs for payments.',
-            github: 'https://github.com/oyeks-ayo/hogapp',
+            github: 'https://github.com/oyeks-ayo/hog',
             demo: 'https://adamsonia62.pythonanywhere.com/',
           },
     ];
