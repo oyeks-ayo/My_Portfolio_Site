@@ -16,7 +16,12 @@ const Projects = () => {
             github: 'https://github.com/oyeks-ayo/restaurant',
             demo: 'https://oyeks-ayo.github.io/restaurant/',
           },
-          
+        {
+            title: 'HOG App',
+            description: 'A Fullstack app for Hand of God, a tiles selling company that showcases their products, supports real-time search, and integrates seamlessly with paystack\'s APIs for payments.',
+            github: 'https://github.com/oyeks-ayo/hogapp',
+            demo: 'https://adamsonia62.pythonanywhere.com/',
+          },
     ];
   return (
     <div>
