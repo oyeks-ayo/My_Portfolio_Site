@@ -4,7 +4,7 @@ import { Container, Navbar, Nav } from 'react-bootstrap';
 const Navb = () => {
   return (
     <Container>
-            <Navbar.Brand href="#home">My Portfolio</Navbar.Brand>
+            <Navbar.Brand href="#home">OYEKANMI AYODELE DANIEL</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ms-auto">

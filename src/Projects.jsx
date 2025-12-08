@@ -5,9 +5,23 @@ const Projects = () => {
     const projects = [
         {
             title: 'SeenIT App',
-            description: 'A full-stack application for showing users projects and CRUD operations.',
+            description: 'A professional portfolio and project showcase platform built with Flask and PostgreSQL. SeenIT enables creatives, artisans, and service professionals to display their work, build profiles, and connect with potential clients.',
             github: 'https://github.com/oyeks-ayo/SeenITApp',
-            demo:'#',
+            demo:'https://oyeksayo.pythonanywhere.com/',
+        },
+
+        {
+            title: 'iFarm',
+            description: 'iFarm is a web application built with Flask and SQLAlchemy that provides:\
+            User Management: User signup, login, and profile management |\
+            Product Catalog: Browse and manage farming products |\
+            Shopping Cart: Add/remove items and manage cart |\
+            Checkout System: Secure payment processing |\
+            Admin Panel: Manage products, orders, and users |\
+            Order History: Track user purchase history |\
+            Database Migrations: SQLAlchemy migrations via Alembic',
+            github: 'https://github.com/oyeks-ayo/ifarm',
+            demo: 'https://ifarm.pythonanywhere.com/',
         },
         // Add more projects here as needed
         {
@@ -22,6 +36,7 @@ const Projects = () => {
             github: 'https://github.com/oyeks-ayo/hog',
             demo: 'https://adamsonia62.pythonanywhere.com/',
           },
+
     ];
   return (
     <div>
