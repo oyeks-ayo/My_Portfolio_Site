@@ -1,0 +1,46 @@
+.navb-container {
+  padding: 0;
+}
+
+.navb-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2c3e50 !important;
+  letter-spacing: 1.5px;
+  transition: color 0.3s ease;
+}
+
+.navb-brand:hover {
+  color: #0066cc !important;
+}
+
+.navb-nav {
+  gap: 2rem;
+}
+
+.navb-link {
+  font-weight: 500;
+  color: #2c3e50 !important;
+  position: relative;
+  transition: color 0.3s ease;
+  font-size: 0.95rem;
+}
+
+.navb-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #0066cc;
+  transition: width 0.3s ease;
+}
+
+.navb-link:hover {
+  color: #0066cc !important;
+}
+
+.navb-link:hover::after {
+  width: 100%;
+}

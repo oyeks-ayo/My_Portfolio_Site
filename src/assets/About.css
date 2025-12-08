@@ -1,0 +1,127 @@
+.about-card,
+.experience-card,
+.skills-card {
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  border: none;
+  margin-bottom: 2rem;
+  transition: all 0.3s ease;
+  background: white;
+}
+
+.about-card:hover,
+.experience-card:hover,
+.skills-card:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+  transform: translateY(-3px);
+}
+
+.about-title,
+.experience-title,
+.skills-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 4px solid #0066cc;
+}
+
+.about-intro {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+.about-intro strong {
+  color: #0066cc;
+  font-weight: 700;
+}
+
+.experience-subtitle {
+  font-size: 0.95rem;
+  color: #0066cc;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.experience-content {
+  color: #555;
+  line-height: 1.8;
+}
+
+.experience-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 1rem 0;
+}
+
+.experience-list li {
+  padding-left: 1.5rem;
+  margin-bottom: 0.8rem;
+  position: relative;
+  color: #555;
+  line-height: 1.6;
+}
+
+.experience-list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #0066cc;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.skill-section {
+  margin-bottom: 2rem;
+}
+
+.skill-category {
+  font-size: 1.1rem;
+  color: #2c3e50;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e0e0e0;
+  display: block;
+}
+
+.skills-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 1rem 0;
+}
+
+.skills-list li {
+  margin-bottom: 0.8rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.skill-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #0066cc 0%, #0052a3 100%);
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-right: 0.5rem;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .about-title,
+  .experience-title,
+  .skills-title {
+    font-size: 1.4rem;
+  }
+
+  .skill-badge {
+    display: block;
+    margin-bottom: 0.5rem;
+    width: fit-content;
+  }
+}

@@ -1,33 +1,37 @@
 import React from 'react';
-import { Container, Navbar, Nav } from 'react-bootstrap';
+import { Container, Navbar } from 'react-bootstrap';
 import About from './About';
 import Contact from './Contact';
 import Projects from './Projects';
 import Navb from './Navb';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './index.css'; // Assuming you have a global CSS file
+import './index.css';
+import './assets/Layout.css';
 
 const Layout = () => {
-    // This is a placeholder for the Layout component.
   return (
-    <div>
-      <Navbar bg="dark" variant="dark" expand="lg" className='mb-4'>
+    <div className='layout-wrapper'>
+      <Navbar expand="lg" className='navbar-custom sticky-top'>
         <Navb />
       </Navbar>
-        <Container className='mt-4'>
-          <section id="about">
+      <main className='layout-main'>
+        <Container className='layout-container'>
+          <section id="about" className='section-spacing'>
             <About />
           </section>
-          <section id="projects">
+          <section id="projects" className='section-spacing'>
             <Projects />
           </section>
-          <section id="contact">
+          <section id="contact" className='section-spacing'>
             <Contact />
           </section>
         </Container>
-      <Navbar bg="dark" variant="dark" expand="lg" className='mb-4'>
-        <Navb />
-      </Navbar>
+      </main>
+      <footer className='footer-custom'>
+        <Container className='py-4'>
+          <p className='text-center mb-0'>© 2025 Ayodele Oyekanmi. All rights reserved.</p>
+        </Container>
+      </footer>
     </div>
   )
 }
