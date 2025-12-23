@@ -31,7 +31,7 @@ const Projects = () => {
             description: 'A full-stack e-commerce platform for a tiles company featuring product showcase, real-time search, and integrated Paystack payment processing.',
             tags: ['Full-Stack', 'Paystack API', 'React', 'Flask'],
             github: 'https://github.com/oyeks-ayo/hog',
-            demo: 'https://adamsonia62.pythonanywhere.com/',
+            demo: 'https://adamsonia.pythonanywhere.com/',
         },
     ];
 
