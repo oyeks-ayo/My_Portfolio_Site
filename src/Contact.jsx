@@ -52,14 +52,14 @@ const Contact = () => {
             >
               <FaEnvelope /> Email
             </Button>
-            <Button
-              href='/AYODELE_D_OYEKANMI.pdf'
-              download
+            <a
+              href='/oyekanmi_ayodele_cv.pdf'
+              download="oyekanmi_ayodele_cv.pdf"
               className='btn-social resume-btn'
               title='Download Resume'
             >
               <FaFileDownload /> Resume
-            </Button>
+            </a>
           </div>
         </Card.Body>
       </Card>
