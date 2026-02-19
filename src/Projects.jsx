@@ -36,7 +36,7 @@ const Projects = () => {
         {
             title: 'Notes App',
             description: 'A fullstack MERN application for creating and managing personal notes. Features API rate limiting with Upstash Redis, and a responsive UI built with React and Tailwind CSS. Deployed on render',
-            tags: ['Full-Stack', 'Paystack API', 'React', 'Flask'],
+            tags: ['Full-Stack', 'Express', 'React', 'Node.js'],
             github: 'https://github.com/oyeks-ayo/MERN_STACK',
             demo: 'https://mern-stack-6sg9.onrender.com',
           },
@@ -44,7 +44,7 @@ const Projects = () => {
           {
             title: 'Crypto News',
             description: 'A React application that displays real-time cryptocurrency data and market information with advanced search functionality, powered by the CoinGecko API and deployed on vercel.',
-            tags: ['Full-Stack', 'Paystack API', 'React', 'Flask'],
+            tags: ['React App', 'Coingecko API', 'React'],
             github: 'https://github.com/oyeks-ayo/digital_assets',
             demo: 'https://digital-assets-dzu6n83cz-ayos-projects-5784c5aa.vercel.app',
           },

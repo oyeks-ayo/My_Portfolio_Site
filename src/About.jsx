@@ -50,6 +50,8 @@ const About = () => {
             <ul className='skills-list'>
               <li><span className='skill-badge'>Python</span> Core syntax, OOP, data structures</li>
               <li><span className='skill-badge'>Flask</span> Routing, templates, RESTful APIs</li>
+              <li><span className='skill-badge'>Express.js</span> Building RESTful APIs, middleware implementation, route handling</li>
+              <li><span className='skill-badge'>Node.js</span> Backend development, event-driven architecture, package management</li>
               <li><span className='skill-badge'>SQL</span> Queries, joins, CRUD operations</li>
               <li><span className='skill-badge'>PostgreSQL</span> Database design, schema management</li>
               <li><span className='skill-badge'>MongoDB</span> NoSQL, flexible schemas</li>
