@@ -53,8 +53,8 @@ const Contact = () => {
               <FaEnvelope /> Email
             </Button>
             <a
-              href='/oyekanmi_ayodele_cv.pdf'
-              download="oyekanmi_ayodele_cv.pdf"
+              href='/My_Portfolio_Site/oyekanmi_ayodele_cv.pdf'
+              download
               className='btn-social resume-btn'
               title='Download Resume'
             >
