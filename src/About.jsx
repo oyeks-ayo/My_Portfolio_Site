@@ -132,31 +132,6 @@ const About = () => {
             </ul>
           </Card.Text>
         </Card.Body>
-
-        <Card.Body>
-          <Card.Title className="experience-title">
-            Junior Database Engineer
-          </Card.Title>
-          <Card.Subtitle className="experience-subtitle">
-            m365Connect (Internship) • July - November 2025
-          </Card.Subtitle>
-          <Card.Text className="experience-content">
-            <ul className="experience-list">
-              <li>Optimized PostgreSQL database for efficient querying</li>
-              <li>
-                Fetched and processed 100,000+ candidates via Manatal's API at
-                20 requests/min using Flask HTTP Requests
-              </li>
-              <li>
-                Extended Manatal functionalities with custom LLM integration
-              </li>
-              <li>
-                Developed user-friendly applications using Budibase (no-code
-                platform)
-              </li>
-            </ul>
-          </Card.Text>
-        </Card.Body>
       </Card>
 
       <Card className="skills-card">
