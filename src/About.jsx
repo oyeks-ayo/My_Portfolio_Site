@@ -21,6 +21,31 @@ const About = () => {
       <Card className="experience-card">
         <Card.Body>
           <Card.Title className="experience-title">
+            Python Instructor
+          </Card.Title>
+          <Card.Subtitle className="experience-subtitle">
+            LearnIT • July 2026 to date • Part-time, Online
+          </Card.Subtitle>
+          <Card.Text className="experience-content">
+            <ul className="experience-list">
+              <li>
+                Teach Python from beginner to mid-level in live online
+                sessions, currently mentoring two students
+              </li>
+              <li>
+                Cover core Python fundamentals through to object-oriented
+                programming (OOP) and working with modules
+              </li>
+              <li>
+                Help learners build working knowledge of the language and
+                apply it in practice
+              </li>
+            </ul>
+          </Card.Text>
+        </Card.Body>
+
+        <Card.Body>
+          <Card.Title className="experience-title">
             Full Stack Web Developer
           </Card.Title>
           <Card.Subtitle className="experience-subtitle">
