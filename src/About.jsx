@@ -49,7 +49,7 @@ const About = () => {
             Full Stack Web Developer
           </Card.Title>
           <Card.Subtitle className="experience-subtitle">
-            Leinard Studios • April 2026 to date
+            Leinad Studios • April 2026 to date
           </Card.Subtitle>
           <Card.Text className="experience-content">
             <ul className="experience-list">
