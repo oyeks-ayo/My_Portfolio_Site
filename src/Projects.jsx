@@ -35,10 +35,10 @@ const Projects = () => {
         },
         {
             title: 'Notes App',
-            description: 'A fullstack application for creating and managing personal notes. Features API rate limiting with Upstash Redis, and a responsive UI built with React and Tailwind CSS. Deployed on render',
+            description: 'A fullstack application for creating and managing personal notes. Features API rate limiting with Upstash Redis, and a responsive UI built with React and Tailwind CSS. Deployed on vercel for frontend and render for the backend',
             tags: ['Full-Stack', 'Python', 'React', 'Django'],
             github: 'https://github.com/oyeks-ayo/MERN_STACK',
-            demo: 'https://mern-stack-6sg9.onrender.com',
+            demo: 'https://note-bdrk5dq6g-ayos-projects-5784c5aa.vercel.app',
           },
 
           {
