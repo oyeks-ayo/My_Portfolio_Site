@@ -38,7 +38,7 @@ const Projects = () => {
             description: 'A fullstack application for creating and managing personal notes. Features API rate limiting with Upstash Redis, and a responsive UI built with React and Tailwind CSS. Deployed on vercel for frontend and render for the backend',
             tags: ['Full-Stack', 'Python', 'React', 'Django'],
             github: 'https://github.com/oyeks-ayo/MERN_STACK',
-            demo: 'https://note-bdrk5dq6g-ayos-projects-5784c5aa.vercel.app',
+            demo: 'note-app-orcin-pi.vercel.app',
           },
 
           {
@@ -46,7 +46,7 @@ const Projects = () => {
             description: 'A React application that displays real-time cryptocurrency data and market information with advanced search functionality, powered by the CoinGecko API and deployed on vercel.',
             tags: ['React App', 'Coingecko API', 'React'],
             github: 'https://github.com/oyeks-ayo/digital_assets',
-            demo: 'https://digital-assets-dzu6n83cz-ayos-projects-5784c5aa.vercel.app',
+            demo: 'digital-assets-six.vercel.app',
           },
     ];
 
